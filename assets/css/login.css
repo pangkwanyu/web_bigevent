@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: url(/assets/images/login_bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.loginAndRegBox {
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.loginAndRegBox .title-box {
+  height: 60px;
+  background: url(/assets/images/login_title.png) no-repeat center;
+}
+.loginAndRegBox .reg-box {
+  display: none;
+}
+.loginAndRegBox .login-box .loginjueduidingwei,
+.loginAndRegBox .reg-box .loginjueduidingwei {
+  position: relative;
+}
+.loginAndRegBox .login-box .loginjueduidingwei i,
+.loginAndRegBox .reg-box .loginjueduidingwei i {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.loginAndRegBox .login-box .loginjueduidingwei input,
+.loginAndRegBox .reg-box .loginjueduidingwei input {
+  padding-left: 32px;
+}
+.loginAndRegBox .loginMD {
+  padding: 0 30px;
+}
+.loginAndRegBox .links {
+  display: flex;
+  justify-content: flex-end;
+}
+.loginAndRegBox .links a {
+  font-size: 12px;
+}
