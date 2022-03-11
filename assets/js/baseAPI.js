@@ -22,4 +22,5 @@ options.complete = function (res) {
         localStorage.removeItem("token");
         // 2.重新跳转到登陆页面
         location.href = "/login.html"
+    }
 }
